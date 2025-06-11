@@ -4,7 +4,7 @@
 @authors Ivan Munoz Rodriguez, Antonis Georgakakis, Angel Ruiz
 
 ## Introduction 
-This repository contains code to crossmatch X-ray catalogues with other catalogues using astromatch. Current implementation includes get counterparts from optical catalogues and do astrometric corrections.
+This repository contains code to crossmatch X-ray catalogues with other catalogues using astromatch. Current implementation includes get counterparts from optical catalogues (using DataLab) and do astrometric corrections (using SAS tasks).
 
 ## Dependencies
 
@@ -23,6 +23,10 @@ The code requires the following packages:
 * <a href="https://cds-astro.github.io/mocpy/" target="_blank">mocpy</a>  
 
 * <a href="https://astroquery.readthedocs.io/en/latest/" target="_blank">astroquery</a>  
+
+* <a href="https://pyvo.readthedocs.io/en/latest/index.html" target="_blank">pyvo</a>  
+
+* <a href="https://datalab.noirlab.edu/docs/manual/index.html" target="_blank">DataLab</a>  
 
 * <a href="https://github.com/ruizca/pxsas" target="_blank">pxsas</a> 
 
