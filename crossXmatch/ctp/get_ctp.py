@@ -12,7 +12,7 @@ from mocpy import MOC
 import numpy as np
 
 from config import *
-import eso.ctp.fun_counterpart as fun_cntrprt
+import crossXmatch.ctp.fun_counterpart as fun_cntrprt
 
 logger = logging.getLogger(__name__)
 

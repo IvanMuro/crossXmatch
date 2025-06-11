@@ -11,8 +11,8 @@ import numpy as np
 
 import pxsas
 
-from eso.config import *
-import eso.utils as utils
+from crossXmatch.config import *
+import crossXmatch.utils as utils
 
 logger = logging.getLogger(__name__)
 

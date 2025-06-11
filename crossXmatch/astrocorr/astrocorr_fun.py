@@ -10,10 +10,10 @@ from mocpy import MOC
 
 import numpy as np
 
-from eso.config import *
+from crossXmatch.config import *
 
-import eso.ctp.get_catalogues as get_catalogues
-import eso.ctp.get_queries as get_queries
+import crossXmatch.ctp.get_catalogues as get_catalogues
+import crossXmatch.ctp.get_queries as get_queries
 
 logger = logging.getLogger(__name__)
 

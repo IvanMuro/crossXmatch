@@ -15,8 +15,8 @@ from mocpy import MOC
 import numpy as np
 import pyvo as vo
 
-import eso.ctp.get_queries as get_queries
-from eso.config import *
+import crossXmatch.ctp.get_queries as get_queries
+from crossXmatch.config import *
 
 logger = logging.getLogger(__name__)
 
